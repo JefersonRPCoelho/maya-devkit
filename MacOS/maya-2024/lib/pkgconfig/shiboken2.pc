@@ -1,0 +1,13 @@
+prefix=/Volumes/DATA/local/S/workspace/pyside_maya/src/pyside3_install/py3.10-qt5.15.2-64bit-release
+exec_prefix=/Volumes/DATA/local/S/workspace/pyside_maya/src/pyside3_install/py3.10-qt5.15.2-64bit-release
+libdir=lib
+includedir=/Volumes/DATA/local/S/workspace/pyside_maya/src/pyside3_install/py3.10-qt5.15.2-64bit-release/include/shiboken2
+generator_location=/Volumes/DATA/local/S/workspace/pyside_maya/src/pyside3_install/py3.10-qt5.15.2-64bit-release/bin/shiboken2
+python_interpreter=/Volumes/DATA/local/S/workspace/pyside_maya/external_dependencies/cpython/3.10.6/RelWithdebInfo/bin/python3.10
+python_include_dir=/Volumes/DATA/local/S/workspace/pyside_maya/external_dependencies/cpython/3.10.6/RelWithdebInfo/Frameworks/Python.framework/Versions/3.10/include/python3.10
+
+Name: shiboken2
+Description: Support library for Python bindings created with the Shiboken2 generator.
+Version: 5.15.2.1
+Libs:  -L${libdir} -lshiboken2.cpython-310-darwin
+Cflags: -I/Volumes/DATA/local/S/workspace/pyside_maya/external_dependencies/cpython/3.10.6/RelWithdebInfo/Frameworks/Python.framework/Versions/3.10/include/python3.10 -I${includedir}/
