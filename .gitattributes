@@ -1,0 +1,2 @@
+MacOS/maya-2024/devkit/Alembic/lib/libAlembic.a filter=lfs diff=lfs merge=lfs -text
+MacOS/maya-2024/lib/libQt5WebEngineCore.5.15.7.dylib filter=lfs diff=lfs merge=lfs -text
